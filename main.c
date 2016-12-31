@@ -49,17 +49,17 @@ int main(void)
 	}
 	
 	clock_t debut,fin;
-	debut=clock();
  //Exit on failure to start communications with the GrovePi
         if(init()==-1)
                 exit(1);
 	int PIN = 4; // Capteur branché sur le port D4 (digital 4)
         int data;
 	int arret=0;
+	debut=clock();
         while(arret==0) // boucle condition d'arrêt : distance < 50cm
         {
           write_block(us_cmd, PIN, 0, 0);
-          pi_sleep(200);
+          pi_sleep(50);
           read_byte();
           read_block();
           data=r_buf[1]* 256 + r_buf[2];

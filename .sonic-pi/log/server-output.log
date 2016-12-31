@@ -1,0 +1,37 @@
+Sonic Pi server booting...
+Detecting port numbers...
+Send port: 4558
+Listen port: 4557
+Scsynth port: 4556
+Scsynth send port: 4556
+OSC cues port: 4559
+Using protocol: udp
+booting server...
+
+
+Booting Sonic Pi
+----------------
+
+Booting on Raspberry Pi
+jackdmp 1.9.10
+Copyright 2001-2005 Paul Davis and others.
+Copyright 2004-2014 Grame.
+jackdmp comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see the file COPYING for details
+JACK server starting in realtime mode with priority 10
+self-connect-mode is "Don't restrict self connect requests"
+audio_reservation_init
+Acquire audio card Audio0
+creating alsa driver ... hw:0|hw:0|2048|3|44100|0|2|nomon|swmeter|-|32bit
+configuring for 44100Hz, period = 2048 frames (46.4 ms), buffer = 3 periods
+ALSA: final selected sample format for playback: 16bit little-endian
+ALSA: use 3 periods for playback
+Boot - Starting the SuperCollider server...
+Boot - SuperCollider booted successfully.
+Boot - Connecting to the SuperCollider server...
+Boot - Sending /status to server: localhost:4556
+Boot - Receiving ack from server on port 5998
+Boot - Server connection established
+This is Sonic Pi v2.11 running on raspberry with ruby api 2.1.0.
+Sonic Pi Server successfully booted.

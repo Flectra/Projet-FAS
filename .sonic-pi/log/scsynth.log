@@ -1,0 +1,6 @@
+# Starting SuperCollider 2016-12-31 01:24:07
+Found 0 LADSPA plugins
+JackDriver: client name is 'SuperCollider'
+SC_AudioDriver: sample rate = 44100.000000, driver's block size = 2048
+SuperCollider 3 server ready.
+JackDriver: max output latency 139.3 ms
