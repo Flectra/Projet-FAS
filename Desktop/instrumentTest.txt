@@ -1,0 +1,8 @@
+use_synth :tri
+File.open('/home/hamelinajade/musiquetest.txt') do |file|
+  file.each_line{
+    |line|
+    play line
+    sleep 0.5
+  }
+end

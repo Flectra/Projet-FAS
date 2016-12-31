@@ -77,7 +77,7 @@ printf("faisons un peu de musique\n");
 	i=i-1;
 	pi_sleep(1000);}
 	while(valeur==0 &&i>0);
-	if (valeur ==1)
+	if ((valeur ==1) && (i<10))
 	{printf("Là faut coder pour changer musique.txt en musique_live.txt");}
 	return 1;
 

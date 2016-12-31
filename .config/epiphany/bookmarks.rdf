@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ephy="http://gnome.org/ns/epiphany#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="file:///home/hamelinajade/.config/epiphany/bookmarks.rdf">
+    <title>Epiphany bookmarks</title>
+    <link>http://www.gnome.org/projects/epiphany/</link>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="https://duckduckgo.com"/>
+        <rdf:li rdf:resource="http://162.38.111.126:80/"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="https://duckduckgo.com">
+    <title>Search the web</title>
+    <link>https://duckduckgo.com</link>
+    <ephy:smartlink>https://duckduckgo.com/?q=%s&amp;t=raspberrypi</ephy:smartlink>
+  </item>
+  <item rdf:about="http://162.38.111.126:80/">
+    <title>Brother HL-5250DN series [0080770a84a0]</title>
+    <link>http://162.38.111.126:80/</link>
+  </item>
+</rdf:RDF>

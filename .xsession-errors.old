@@ -1,0 +1,10 @@
+Xsession: X session started for hamelinajade at Sat 31 Dec 00:18:43 UTC 2016
+localuser:hamelinajade being added to access control list
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+** Message: main.vala:99: Session is LXDE-pi
+** Message: main.vala:100: DE is LXDE
+** Message: main.vala:131: log directory: /home/hamelinajade/.cache/lxsession/LXDE-pi
+** Message: main.vala:132: log path: /home/hamelinajade/.cache/lxsession/LXDE-pi/run.log

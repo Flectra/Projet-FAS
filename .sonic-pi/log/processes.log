@@ -1,18 +1,6 @@
 
 
-Clearing pids: ["1143", "1199"]
-
-Clearing [1143]
-  -- removing /tmp/sonic-pi-pids/1143
-  -- politely killing 1143
-  -- killed 1143
-
-Clearing [1199]
-  -- removing /tmp/sonic-pi-pids/1199
-  -- unable to get ProcTable info for: 1199
-  -- process: 1199 not running
-
-Finished clearing pids
-
-Started [1534] [-] ruby -E utf-8 /opt/sonic-pi/app/gui/qt/../../../app/server/bin/sonic-pi-server.rb -u 4557 4558 4556 4556 4559 [-] /tmp/sonic-pi-pids/1534
-Started [1590] [-] scsynth -u 4556 -a 64 -m 131072 -D 0 -R 0 -l 1 -z 128 -c 128 -U /usr/lib/SuperCollider/plugins:/opt/sonic-pi/app/server/native/raspberry/extra-ugens/ -i 2 -o 2 -b 4096 [-] /tmp/sonic-pi-pids/1590
+Clearing pids: []
+No pids to clear :-)
+Started [1749] [-] ruby -E utf-8 /opt/sonic-pi/app/gui/qt/../../../app/server/bin/sonic-pi-server.rb -u 4557 4558 4556 4556 4559 [-] /tmp/sonic-pi-pids/1749
+Started [1805] [-] scsynth -u 4556 -a 64 -m 131072 -D 0 -R 0 -l 1 -z 128 -c 128 -U /usr/lib/SuperCollider/plugins:/opt/sonic-pi/app/server/native/raspberry/extra-ugens/ -i 2 -o 2 -b 4096 [-] /tmp/sonic-pi-pids/1805
