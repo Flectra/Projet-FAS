@@ -8,6 +8,28 @@
 //Execution : sudo ./instrument
 
 #define us_cmd 7
+
+char * saisir_chaine(char * lpBuffer, int buf_size)
+{
+    char * ret = fgets(lpBuffer, buf_size, stdin);
+
+    if (ret != NULL)
+    {
+        char * p = strchr(lpBuffer, '\n');
+        if (p != NULL)
+            *p = '\0';
+        else
+        {
+            int c;
+
+            do
+                c = getchar();
+            while (c != EOF && c != '\n');
+        }
+    }
+
+    return ret;
+}
  
 int main(void)
 {
@@ -68,7 +90,7 @@ printf("faisons un peu de musique\n");
 	fprintf(f,"%s.\n",message);
 	fclose(f);
 	touche= 'a';}
-}while (touche ==' ');
+	}while (touche ==' ');
 	pi_sleep(100);
 	printf(" Joli Morceau ! Voulez vous le réécouter ? Si oui, rappuyez donc sur le bouton!");
 	int i = 10;
@@ -77,8 +99,23 @@ printf("faisons un peu de musique\n");
 	i=i-1;
 	pi_sleep(1000);}
 	while(valeur==0 &&i>0);
-	if ((valeur ==1) && (i<10))
-	{printf("Là faut coder pour changer musique.txt en musique_live.txt");}
-	return 1;
 
-}
+	if ((valeur ==1) && (i<10)) /*si on appuye sur le bouton avant la fin du compte à rebours*/
+	{printf("Là faut coder pour changer musique.txt en musique_live.txt");
+	//http://melem.developpez.com/tutoriels/langage-c/fichiers/?page=cours#LI-E
+	char * saisir_chaine(char * lpBuffer, int buf_size);
+	saisir_chaine("musique.txt", sizeof("musique.txt"));
+
+    	FILE *fsrc  = fopen("musique.txt", "rb");
+        saisir_chaine("musique_live.txt", sizeof("musique_lve.txt"));
+        FILE *fdest = fopen("musique_live.txt", "wb");
+        int compt;
+        while ((compt = getc(fdest)) != EOF)
+        	putc(compt, fsrc);
+
+        fclose(fsrc);
+        // printf("Copie terminee.\n");
+	}
+	return 1;
+	}
+

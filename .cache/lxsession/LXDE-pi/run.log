@@ -239,3 +239,8 @@ Voir https://www.facebook.com/selfxss pour plus d’informations
 
 
 (epiphany-browser:1851): GLib-CRITICAL **: Source ID 33109 was not found when attempting to remove it
+
+(epiphany-browser:1851): GLib-CRITICAL **: Source ID 44076 was not found when attempting to remove it
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+XIO:  fatal IO error 4 (Interrupted system call) on X server ":0"
+      after 91254 requests (91254 known processed) with 0 events remaining.

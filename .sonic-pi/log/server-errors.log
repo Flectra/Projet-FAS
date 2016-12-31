@@ -15,3 +15,6 @@ Cannot use real-time scheduling (RR/5)(1: Operation not permitted)
 JackClient::AcquireSelfRealTime error
 Cannot lock down 14130080 byte memory area (Cannot allocate memory)
 Cannot lock down 14130080 byte memory area (Cannot allocate memory)
+Jack main caught signal 15
+JackPosixProcessSync::LockedTimedWait error usec = 185756 err = Connection timed out
+JackEngine::ClientCloseAux wait error ref = 2

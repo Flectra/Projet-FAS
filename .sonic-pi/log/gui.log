@@ -19,3 +19,10 @@
 ..
 [GUI] - Sonic Pi Server connection established
 [GUI] - loading workspaces
+[GUI] - stopping OSC server
+[GUI] - stopping UDP OSC Server...
+[GUI] - saving workspaces
+[GUI] - UDP OSC Server no longer listening
+[GUI] - asking server process to exit...
+[GUI] - executing exit script
+[GUI] - exiting. Cheerio :-)
