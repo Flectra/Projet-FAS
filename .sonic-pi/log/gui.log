@@ -11,7 +11,7 @@
 [GUI] - launching Sonic Pi Server:
 [GUI] - starting UDP OSC Server on port 4558...
 [GUI] - UDP OSC Server ready and listening
-[GUI] - Ruby server pid registered: 1749
+[GUI] - Ruby server pid registered: 2074
 [GUI] - waiting for Sonic Pi Server to boot...
 ........
 [GUI] - Sonic Pi Server successfully booted.
@@ -19,10 +19,3 @@
 ..
 [GUI] - Sonic Pi Server connection established
 [GUI] - loading workspaces
-[GUI] - stopping OSC server
-[GUI] - stopping UDP OSC Server...
-[GUI] - saving workspaces
-[GUI] - UDP OSC Server no longer listening
-[GUI] - asking server process to exit...
-[GUI] - executing exit script
-[GUI] - exiting. Cheerio :-)

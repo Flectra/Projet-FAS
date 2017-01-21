@@ -13,12 +13,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/hamelinajade/sonicEssai.txt" added="2016-12-31T03:21:59Z" modified="2016-12-31T03:21:59Z" visited="2016-12-31T03:22:00.196214Z">
+  <bookmark href="file:///home/hamelinajade/sonicEssai.txt" added="2016-12-31T03:21:59Z" modified="2016-12-31T03:21:59Z" visited="2016-12-31T03:22:00Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
           <bookmark:application name="sonic-pi" exec="&apos;sonic-pi %u&apos;" modified="2016-12-31T03:21:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hamelinajade/musiqueFinal" added="2017-01-21T17:30:43Z" modified="2017-01-21T17:30:43Z" visited="2017-01-21T17:30:44.153788Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="sonic-pi" exec="&apos;sonic-pi %u&apos;" modified="2017-01-21T17:30:43Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

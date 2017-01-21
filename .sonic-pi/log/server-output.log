@@ -35,18 +35,3 @@ Boot - Receiving ack from server on port 5998
 Boot - Server connection established
 This is Sonic Pi v2.11 running on raspberry with ruby api 2.1.0.
 Sonic Pi Server successfully booted.
-Exiting - shutting down scsynth server...
-Sending /quit command to scsynth
-Stopping OSC server...
-Stopped OSC server...
-killing jack process 1793
-killing scynth process 1805
-going to kill 1793
-Error waiting for process 1793 - assumed already killed
-going to kill 1805
-Successfully killed 1805
-Server is exiting.
-Shutting down GUI...
-Goodbye :-)
-Released audio card Audio0
-audio_reservation_finish
